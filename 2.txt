@@ -1,0 +1,86 @@
+                                                                  Date 23 June 2025 
+Day 1 of training 
+ 
+Start with html     
+1.        Basic introduction about html why we need to use html 
+2.        Some tags and attributes of html 
+E.g. -> paragraph tag, anchor tag, image tag  etc. 
+
+->Homework use these tags yourself  and make some experiments on these tags   
+1 paragraph tag ->. in these use (Lorem)-> which is used to generate random line of code  show in (fig 1.1)
+
+
+
+ 
+ Fig 1.1 
+
+
+2)    heading tags -> use 6 different heading tags
+    -> defines heading in a document 
+   ->Range from <H1> to <H6>
+
+
+ 
+Fig 1.2
+
+3)    <br> tag ->  It is used for new line in html
+4 ) image tage 
+5) some text styling tags like :-
+  -> for bold -> <b>
+   ->Text style  change-> <em>   
+Many more tags .
+
+
+                                                                                                  DATE  24 June 2025
+  1 exercise :-> Use all the tags which  I learn make a code using all these tags 
+
+
+                                                                                                                              
+
+—> Here we see all the tags which I learn in my code 
+
+
+
+                                                                                                           DATE 25 JUNE 2025
+
+BGCOLOR AND FONT TAGS :->
+ -> learn about background colour change   ->bicolour tag 
+-> text colour change  -> font tag 
+Note -> all these things we use in css its not html thing but it is for our knowledge 
+
+
+Fig 1.4
+Again Some tags 
+       <hr> Tag (Horizontal Rule):
+	•	      	           •	Used to draw a horizontal line across the web page.
+	•	             	•	It is mainly used to separate sections or content.
+	•	            	•	It is an empty tag (no closing tag needed).
+
+         <marquee> Tag:
+	•	               It is used to make text or images move (scroll) on the web page.
+	•	              The content can scroll left, right, up, or down.
+	•	              It is a non-standard tag, so it's not recommended in modern websites (but still works in most browsers).
+
+List tags :->
+There are three list tags :->
+1) ordered   2) unordered  3) description list 
+—> <ol> Tag (Ordered List):                                     —> unordered list
+                                                                                                <ul> Tag (Unordered List):
+          Used to create a numbered list (1, 2, 3...).                                       Used to create a bulleted list (•)
+	•	                                 Each item in the list goes inside the <li> tag.                              Each item is written inside an <li> tag.   
+
+	•	                   
+	•	         Description List (<dl>, <dt>, <dd>)
+	•	         Used to show terms and their descriptions — like a glossary or FAQ.
+	•	                                       Tags:
+	•	               <dl> – Description List (the container)                 
+	•	               <dt> – Description Term (like a title or word)
+	•	               <dd> – Description Data (explains the term) 
+
+
+
+
+
+
+
+
