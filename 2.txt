@@ -12,7 +12,7 @@ E.g. -> paragraph tag, anchor tag, image tag  etc.
 
 
  
- Fig 1.1 
+ 
 
 
 2)    heading tags -> use 6 different heading tags
@@ -21,7 +21,7 @@ E.g. -> paragraph tag, anchor tag, image tag  etc.
 
 
  
-Fig 1.2
+
 
 3)    <br> tag ->  It is used for new line in html
 4 ) image tage 
@@ -31,7 +31,7 @@ Fig 1.2
 Many more tags .
 
 
-                                                                                                  DATE  24 June 2025
+                                         DATE  24 June 2025
   1 exercise :-> Use all the tags which  I learn make a code using all these tags 
 
 
@@ -41,7 +41,7 @@ Many more tags .
 
 
 
-                                                                                                           DATE 25 JUNE 2025
+                                 DATE 25 JUNE 2025
 
 BGCOLOR AND FONT TAGS :->
  -> learn about background colour change   ->bicolour tag 
@@ -49,7 +49,7 @@ BGCOLOR AND FONT TAGS :->
 Note -> all these things we use in css its not html thing but it is for our knowledge 
 
 
-Fig 1.4
+
 Again Some tags 
        <hr> Tag (Horizontal Rule):
 	•	      	           •	Used to draw a horizontal line across the web page.
@@ -64,10 +64,10 @@ Again Some tags
 List tags :->
 There are three list tags :->
 1) ordered   2) unordered  3) description list 
-—> <ol> Tag (Ordered List):                                     —> unordered list
-                                                                                                <ul> Tag (Unordered List):
+—> <ol> Tag (Ordered List):                                                       —> unordered list
+                                                                                  <ul> Tag (Unordered List):
           Used to create a numbered list (1, 2, 3...).                                       Used to create a bulleted list (•)
-	•	                                 Each item in the list goes inside the <li> tag.                              Each item is written inside an <li> tag.   
+	   Each item in the list goes inside the <li> tag.                              Each item is written inside an <li> tag.   
 
 	•	                   
 	•	         Description List (<dl>, <dt>, <dd>)
