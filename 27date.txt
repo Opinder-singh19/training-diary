@@ -1,0 +1,206 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 Times-Roman;\f2\fmodern\fcharset0 Courier;
+\f3\froman\fcharset0 Times-Bold;\f4\fmodern\fcharset0 Courier-Bold;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww29200\viewh18400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qj\partightenfactor0
+
+\f0\fs24 \cf0                                                   Date- 27 June 2025 \
+  
+\fs36 Form tag \
+\
+\pard\pardeftab720\qj\partightenfactor0
+
+\f1 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 The 
+\f2 <form>
+\f1  tag in HTML is used to create an 
+\f3\b interactive section
+\f1\b0  on a web page that allows users to 
+\f3\b input data
+\f1\b0  and 
+\f3\b submit it to a server
+\f1\b0  for processing. \
+It can contain input fields, checkboxes, radio buttons, submit buttons, and more.\
+\
+Learn about form tag attributes like :-   for , type ,id ,value ,action ,name, placeholder ,required\
+\pard\pardeftab720\sa280\qj\partightenfactor0
+
+\f3\b \cf0 \strokec2 HTML Attribute Uses\
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth3500\clftsWidth3 \clheight20 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth4280\clftsWidth3 \clheight20 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth5800\clftsWidth3 \clheight20 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qj\partightenfactor0
+\cf0 Attribute\cell 
+\pard\intbl\itap1\pardeftab720\qj\partightenfactor0
+\cf0 Tag Used In\cell 
+\pard\intbl\itap1\pardeftab720\qj\partightenfactor0
+\cf0 Use / Purpose\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth3500\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth4280\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth5800\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qj\partightenfactor0
+
+\f2\b0 \cf0   for
+\f1 \cell 
+\pard\intbl\itap1\pardeftab720\qj\partightenfactor0
+
+\f2 \cf0 <label>
+\f1 \cell 
+\pard\intbl\itap1\pardeftab720\qj\partightenfactor0
+\cf0 Connects the label to an input using the 
+\f2 id
+\f1  of the input. Helps when clicking   the label to focus the input.\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth3500\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth4280\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth5800\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qj\partightenfactor0
+
+\f2 \cf0   type
+\f1 \cell 
+\pard\intbl\itap1\pardeftab720\qj\partightenfactor0
+
+\f2 \cf0 <input>
+\f1 \cell 
+\pard\intbl\itap1\pardeftab720\qj\partightenfactor0
+\cf0 Defines the type of input (text, password, email, submit, etc.).\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth3500\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth4280\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth5800\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qj\partightenfactor0
+
+\f2 \cf0   id
+\f1 \cell 
+\pard\intbl\itap1\pardeftab720\qj\partightenfactor0
+\cf0 Most tags\cell 
+\pard\intbl\itap1\pardeftab720\qj\partightenfactor0
+\cf0 Gives a 
+\f3\b unique identifier
+\f1\b0  to a tag. Used for styling (CSS) or scripting (JavaScript).\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth3500\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth4280\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth5800\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qj\partightenfactor0
+
+\f2 \cf0   value
+\f1 \cell 
+\pard\intbl\itap1\pardeftab720\qj\partightenfactor0
+
+\f2 \cf0 <input>
+\f1 , 
+\f2 <button>
+\f1 \cell 
+\pard\intbl\itap1\pardeftab720\qj\partightenfactor0
+\cf0 Sets the 
+\f3\b default value
+\f1\b0  shown in an input box or button.\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth3500\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth4280\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth5800\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qj\partightenfactor0
+
+\f2 \cf0   action
+\f1 \cell 
+\pard\intbl\itap1\pardeftab720\qj\partightenfactor0
+
+\f2 \cf0 <form>
+\f1 \cell 
+\pard\intbl\itap1\pardeftab720\qj\partightenfactor0
+\cf0 Tells where to send the form data when submitted.\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth3500\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth4280\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth5800\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qj\partightenfactor0
+
+\f2 \cf0   name
+\f1 \cell 
+\pard\intbl\itap1\pardeftab720\qj\partightenfactor0
+
+\f2 \cf0 <input>
+\f1 , 
+\f2 <form>
+\f1 \cell 
+\pard\intbl\itap1\pardeftab720\qj\partightenfactor0
+\cf0 Gives a name to the element. Used to identify the data on the server side.\cell \lastrow\row
+\pard\pardeftab720\qj\partightenfactor0
+\cf0 \strokec2 \
+\pard\pardeftab720\sa280\qj\partightenfactor0
+
+\f4\b \cf0 \strokec2 placeholder
+\f3 \strokec2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\qj\partightenfactor0
+\ls1\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Use:
+\f1\b0  Shows a 
+\f3\b hint or example text
+\f1\b0  inside the input box before the user types.\
+\ls1\ilvl0
+\f3\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 It disappears
+\f1\b0  when the user starts typing.\
+\ls1\ilvl0
+\f3\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Used in:
+\f1\b0  
+\f2 <input>
+\f1 , 
+\f2 <textarea>
+\f1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\qj\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sa280\qj\partightenfactor0
+
+\f4\b \cf0 required
+\f3 \strokec2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\qj\partightenfactor0
+\ls2\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Use:
+\f1\b0  Makes a field 
+\f3\b mandatory
+\f1\b0 . The form 
+\f3\b won\'92t submit
+\f1\b0  unless this field is filled.\
+\ls2\ilvl0
+\f3\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Used in:
+\f1\b0  
+\f2 <input>
+\f1 , 
+\f2 <textarea>
+\f1 , 
+\f2 <select>\
+\pard\tx720\pardeftab720\sa240\qj\partightenfactor0
+
+\f1 \cf0 \
+  \'97> Understand radio button \
+        A 
+\f3\b \strokec2 radio button
+\f1\b0 \strokec2  lets the user 
+\f3\b \strokec2 select only one option
+\f1\b0 \strokec2  from a group of choices.\
+\'97\'97> drop down list \
+\pard\pardeftab720\qj\partightenfactor0
+\cf0 A 
+\f3\b \strokec2 drop-down list
+\f1\b0 \strokec2  allows users to 
+\f3\b \strokec2 choose one option
+\f1\b0 \strokec2  from a list that appears when clicked\
+}
