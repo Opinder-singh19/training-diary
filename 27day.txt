@@ -1,0 +1,43 @@
+                                               Date- 27 June 2025 
+  Form tag 
+
+The <form> tag in HTML is used to create an interactive section on a web page that allows users to input data and submit it to a server for processing. 
+It can contain input fields, checkboxes, radio buttons, submit buttons, and more.
+
+Learn about form tag attributes like :-   for , type ,id ,value ,action ,name, placeholder ,required
+HTML Attribute Uses
+Attribute
+Tag Used In
+Use / Purpose
+  for
+<label>
+Connects the label to an input using the id of the input. Helps when clicking   the label to focus the input.
+  type
+<input>
+Defines the type of input (text, password, email, submit, etc.).
+  id
+Most tags
+Gives a unique identifier to a tag. Used for styling (CSS) or scripting (JavaScript).
+  value
+<input>, <button>
+Sets the default value shown in an input box or button.
+  action
+<form>
+Tells where to send the form data when submitted.
+  name
+<input>, <form>
+Gives a name to the element. Used to identify the data on the server side.
+
+placeholder
+	•	Use: Shows a hint or example text inside the input box before the user types.
+	•	It disappears when the user starts typing.
+	•	Used in: <input>, <textarea>
+
+required
+	•	Use: Makes a field mandatory. The form won’t submit unless this field is filled.
+	•	Used in: <input>, <textarea>, <select>
+
+  —> Understand radio button 
+        A radio button lets the user select only one option from a group of choices.
+——> drop down list 
+A drop-down list allows users to choose one option from a list that appears when clicked
