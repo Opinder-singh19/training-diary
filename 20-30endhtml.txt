@@ -1,0 +1,58 @@
+                                                                        DATE 28-30
+    
+   TOPICS :- 1)  CHECKBOX ,FILE ,URL
+                     2) More input tag 
+                    3) form using table tag 
+                    4) block or inline elements 
+                    5)fields and legend set 
+                     6) tags:—> detail,embed,video,html entities,abbr,datalist,figcaption,bdo,captiontag,pre and template tag ,iframe and sandbox ,sig,meta ,
+                                         sementaic non semantic tag ,html Image map
+                        
+
+
+      1) Checkbox, File, URL Inputs
+	•	<input type="checkbox">: Allows users to select one or more options.
+	•	<input type="file">: Lets users upload files from their device.
+	•	<input type="url">: Accepts valid URL format (e.g., https://example.com).
+
+   2) More Input Types
+	•	text: Single-line input
+	•	password: Hides characters
+	•	email: For email format
+	•	number: Accepts numbers
+	•	radio: Select one option
+	•	date, color, range: For specific data types
+
+   4) Block vs Inline Elements
+	•	Block elements: Start on a new line, take full width Examples: <div>, <p>, <h1>
+	•	Inline elements: Stay in line with text Examples: <span>, <a>, <img>
+
+ 5)fieldset & legend
+	•	<fieldset>: Groups related form elements
+	•	<legend>: Title for the group
+	•	   <fieldset>
+	•	  <legend>Personal Info</legend>
+	•	  <input type="text" placeholder="Name">
+	•	</fieldset>
+	•	
+   6)
+| Tag                   | Use                                                                  |
+| --------------------- | -------------------------------------------------------------------- |
+| `<details>`           | Shows hidden info when clicked                                       |
+| `<embed>`             | Embeds media (PDF, videos, etc.)                                     |
+| `<video>`             | Embeds a video player                                                |
+| HTML Entities         | Special symbols like `&lt;`, `&copy;`                                |
+| `<abbr>`              | Abbreviation (`<abbr title="HyperText Markup Language">HTML</abbr>`) |
+| `<datalist>`          | Dropdown for input suggestions                                       |
+| `<figcaption>`        | Caption for image/figure                                             |
+| `<bdo>`               | Bi-directional override (e.g., RTL text)                             |
+| `<caption>`           | Title for a table                                                    |
+| `<pre>`               | Preformatted text (preserves spacing)                                |
+| `<template>`          | Hidden HTML for future JavaScript use                                |
+| `<iframe>`            | Embed another webpage inside                                         |
+| `sandbox`             | Restricts iframe actions (security)                                  |
+| `<meta>`              | Metadata (author, charset, etc.)                                     |
+| `<samp>`              | Sample output from programs                                          |
+| **Semantic tags**     | Tags with meaning (e.g., `<header>`, `<footer>`)                     |
+| **Non-semantic tags** | No meaning, only structure (e.g., `<div>`, `<span>`)                 |
+| **Image Map**         | Clickable areas on an image using `<map>` & `<area>`                 |
