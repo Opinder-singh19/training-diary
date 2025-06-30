@@ -1,0 +1,347 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 Times-Bold;\f2\fmodern\fcharset0 Courier;
+\f3\froman\fcharset0 Times-Roman;\f4\fmodern\fcharset0 Courier-Bold;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww29200\viewh18400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0                                                                          
+\fs36  DATE 28-30\
+    \
+   TOPICS :- 1)  CHECKBOX ,FILE ,URL\
+                     2) More input tag \
+                    3) form using table tag \
+                    4) block or inline elements \
+                    5)fields and legend set \
+                     6) tags:\'97> detail,embed,video,html entities,abbr,datalist,figcaption,bdo,captiontag,pre and template tag ,iframe and sandbox ,sig,meta ,\
+                                         sementaic non semantic tag ,html Image map\
+                        \
+\
+\
+      
+\f1\b \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 1) Checkbox, File, URL Inputs\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls1\ilvl0
+\f2\b0 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 <input type="checkbox">
+\f3 : Allows users to select one or more options.\
+\ls1\ilvl0
+\f2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 <input type="file">
+\f3 : Lets users upload files from their device.\
+\ls1\ilvl0
+\f2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 <input type="url">
+\f3 : Accepts valid URL format (e.g., 
+\f2 https://example.com
+\f3 ).\
+\pard\tx720\pardeftab720\sa240\partightenfactor0
+\cf0 \
+   
+\f1\b \strokec2 2) More Input Types\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls2\ilvl0
+\f2\b0 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 text
+\f3 : Single-line input\
+\ls2\ilvl0
+\f2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 password
+\f3 : Hides characters\
+\ls2\ilvl0
+\f2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 email
+\f3 : For email format\
+\ls2\ilvl0
+\f2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 number
+\f3 : Accepts numbers\
+\ls2\ilvl0
+\f2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 radio
+\f3 : Select one option\
+\ls2\ilvl0
+\f2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 date
+\f3 , 
+\f2 color
+\f3 , 
+\f2 range
+\f3 : For specific data types
+\fs24 \
+\pard\tx720\pardeftab720\sa240\partightenfactor0
+
+\fs36 \cf0 \strokec2 \
+  
+\fs48  
+\f1\b\fs36 \strokec2 4) Block vs Inline Elements\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls3\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Block elements
+\f3\b0 : Start on a new line, take full width\uc0\u8232 Examples: 
+\f2 <div>
+\f3 , 
+\f2 <p>
+\f3 , 
+\f2 <h1>
+\f3 \
+\ls3\ilvl0
+\f1\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Inline elements
+\f3\b0 : Stay in line with text\uc0\u8232 Examples: 
+\f2 <span>
+\f3 , 
+\f2 <a>
+\f3 , 
+\f2 <img>\
+\pard\tx720\pardeftab720\sa240\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f4\b \cf0 \strokec2  5)fieldset
+\f1  & 
+\f4 legend
+\f1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls4\ilvl0
+\f2\b0 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 <fieldset>
+\f3 : Groups related form elements\
+\ls4\ilvl0
+\f2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 <legend>
+\f3 : Title for the group\
+\ls4\ilvl0
+\fs24 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	} 
+\fs36   <fieldset>\
+{\listtext	\uc0\u8226 	}  <legend>Personal Info</legend>\
+{\listtext	\uc0\u8226 	}  <input type="text" placeholder="Name">\
+{\listtext	\uc0\u8226 	}</fieldset>\
+{\listtext	\uc0\u8226 	}\
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth1886\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth9443\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0
+\f1\b \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 {\listtext	\'95	}Tag\cell 
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0\cf0 {\listtext	\'95	}Use\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth1886\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth9443\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0
+\f2\b0 \cf0 {\listtext	\'95	}<detail>
+\f3 \cell 
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0\cf0 {\listtext	\'95	}Shows hidden info when clicked\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth1886\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth9443\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0
+\f2 \cf0 \
+{\listtext	\'95	}<embed>
+\f3 \cell 
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0\cf0 {\listtext	\'95	}Embeds media (PDF, videos, etc.)\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth1886\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth9443\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0
+\f2 \cf0 {\listtext	\'95	}<video>\
+\ls4\ilvl0
+\f3 \cell 
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0\cf0 {\listtext	\'95	}Embeds a video player\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth1886\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth9443\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0\cf0 {\listtext	\'95	}HTML Entities\cell 
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0\cf0 {\listtext	\'95	}Special symbols like 
+\f2 &lt;
+\f3 , 
+\f2 &copy;
+\f3 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth1886\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth9443\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0
+\f2 \cf0 {\listtext	\'95	}<abbr>
+\f3 \cell 
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}                  \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Abbreviation (
+\f2 <abbr title="HyperText Markup Language">HTML</abbr>
+\f3 )\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth1886\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth9443\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0
+\f2 \cf0 {\listtext	\'95	}<datali>
+\f3 \cell 
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0\cf0 \
+{\listtext	\'95	}Dropdown for input suggestions\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth1886\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth9443\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0
+\f2 \cf0 {\listtext	\'95	}<figcaption>
+\f3 \cell 
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0\cf0 {\listtext	\'95	}Caption for image/figure\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth1886\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth9443\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0
+\f2 \cf0 {\listtext	\'95	}<bdo>
+\f3 \cell 
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0\cf0 {\listtext	\'95	}Bi-directional override (e.g., RTL text)\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth1886\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth9443\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0
+\f2 \cf0 {\listtext	\'95	}<caption>
+\f3 \cell 
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0\cf0 {\listtext	\'95	}Title for a table\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth1886\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth9443\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0
+\f2 \cf0 {\listtext	\'95	}<pre>
+\f3 \cell 
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0\cf0 {\listtext	\'95	}Preformatted text (preserves spacing)\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth1886\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth9443\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0
+\f2 \cf0 {\listtext	\'95	}<template>
+\f3 \cell 
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0\cf0 {\listtext	\'95	}Hidden HTML for future JavaScript use\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth1886\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth9443\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0
+\f2 \cf0 {\listtext	\'95	}<iframe>
+\f3 \cell 
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0\cf0 {\listtext	\'95	}Embed another webpage inside\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth1886\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth9443\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0
+\f2 \cf0 {\listtext	\'95	}sandbox
+\f3 \cell 
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0\cf0 {\listtext	\'95	}Restricts iframe actions (security)\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth1886\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth9443\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0
+\f2 \cf0 {\listtext	\'95	}<meta>
+\f3 \cell 
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0\cf0 {\listtext	\'95	}Metadata (author, charset, etc.)\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth1886\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth9443\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0
+\f2 \cf0 {\listtext	\'95	}<samp>
+\f3 \cell 
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0\cf0 {\listtext	\'95	}Sample output from programs\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth1886\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth9443\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0
+\f1\b \cf0 {\listtext	\'95	}Semantic tags
+\f3\b0 \cell 
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0\cf0 {\listtext	\'95	}Tags with meaning (e.g., 
+\f2 <header>
+\f3 , 
+\f2 <footer>
+\f3 )\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth1886\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth9443\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0
+\f1\b \cf0 {\listtext	\'95	}Non-semantic tags
+\f3\b0 \cell 
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0\cf0 {\listtext	\'95	}No meaning, only structure (e.g., 
+\f2 <div>
+\f3 , 
+\f2 <span>
+\f3 )\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth1886\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth9443\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0
+\f1\b \cf0 {\listtext	\'95	}Image Map
+\f3\b0 \cell 
+\pard\intbl\itap1\pardeftab720\sl312\slmult1\qc\partightenfactor0
+\ls4\ilvl0\cf0 {\listtext	\'95	}Clickable areas on an image using 
+\f2 <map>
+\f3  & 
+\f2 <area>
+\f3 \cell \lastrow\row
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\qc\partightenfactor0
+\ls4\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls4\ilvl0
+\fs24 \cf0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+\pard\tx720\pardeftab720\sa240\partightenfactor0
+
+\fs36 \cf0 \strokec2 \
+}
