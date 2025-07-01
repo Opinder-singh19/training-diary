@@ -1,0 +1,45 @@
+What is CSS?
+CSS stands for Cascading Style Sheets.
+It is used to style HTML pages — basically, it makes your website look good!
+
+ What Does CSS Do?
+ Changes colors
+ Changes fonts and text size 
+ Controls layout, margins, spacing
+ Makes websites responsive (look good on mobile)
+
+
+ h1 {
+  color: red;
+}
+This means:
+
+Selector = h1 → (Heading)
+Property = color → (What you want to change)
+Value = red → (How you want it)
+
+There are three types of css 
+1) inline css 2) internal css  3)external css
+
+--> inline css 
+   CSS written directly inside an HTML tag.
+    Used for small, quick changes.
+    ❌ Not good for big projects.
+
+--> internal css 
+    CSS written inside a <style> tag in the same HTML file (in <head>).
+    Good for styling a single page.
+
+--> external css 
+    CSS written in a separate file (like style.css), then linked to the HTML.
+    Best for big websites.
+    Easy to reuse and manage.
+
+   | Selector Type      | Example    | What it does                           |
+| ------------------ | ---------- | -------------------------------------- |
+| **Universal**      | `* {}`     | Selects **all** elements               |
+| **Tag**            | `p {}`     | Selects all `<p>` tags                 |
+| **Class**          | `.name {}` | Selects elements with **class="name"** |
+| **ID**             | `#main {}` | Selects element with **id="main"**     |
+| **Group**          | `h1, p {}` | Styles **both h1 and p**               |
+| **Inside Element** | `div p {}` | Styles `<p>` inside `<div>`            |

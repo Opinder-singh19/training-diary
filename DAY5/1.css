@@ -1,0 +1,12 @@
+/*external css */
+h1{
+    background-color: red;
+}
+/* id using (#) */
+#para{
+    background-color: bisque;
+}
+/* class using (.)*/
+.para{
+    background-color: beige;
+}
