@@ -1,0 +1,100 @@
+                DAY-2 OF CSS
+CSS ATTRIBUTE SELECTOR 
+
+CSS attribute selectors allow you to select HTML elements based on the presence or value of their attributes.
+
+
+Basic Syntax:
+selector[attribute] {
+  /* CSS rules */
+}
+
+
+Types of Attribute Selectors with Examples:
+| Selector          | Meaning             | Example              | What it selects                            |
+| ----------------- | ------------------- | -------------------- | ------------------------------------------ |
+| `[attr]`          | Has the attribute   | `input[required]`    | All `<input>` with `required`              |
+| `[attr="value"]`  | Exact value         | `a[target="_blank"]` | All `<a>` where target = "\_blank"         |
+| `[attr~="value"]` | Word contains value | `[title~="fast"]`    | Title with word "fast" in it               |
+| `[attr^="value"]` | Starts with         | `img[src^="https"]`  | All `<img>` with src starting with "https" |
+| `[attr$="value"]` | Ends with           | `img[src$=".jpg"]`   | All `<img>` ending with ".jpg"             |
+| `[attr*="value"]` | Contains value      | `a[href*="google"]`  | All `<a>` containing "google" in href      |
+
+CSS COLOR IN DIFFERENT WAYS 
+1.  Color Names
+You can directly use color names like:
+--------------------------------
+color: red;
+background-color: blue;
+
+2. HEX Codes
+Use a # followed by 6 characters (digits or A–F):
+
+-----------------------
+color: #ff0000;   /* red */
+color: #00ff00;   /* green */
+color: #0000ff;   /* blue */
+
+3. RGB (Red, Green, Blue)
+Values from 0 to 255:
+-------------------------
+color: rgb(255, 0, 0);   /* red */
+color: rgb(0, 255, 0);   /* green */
+color: rgb(0, 0, 255);   /* blue */
+
+4. RGBA (RGB + Opacity)
+Last value is transparency (0 = fully transparent, 1 = fully solid):
+------------------------
+color: rgba(255, 0, 0, 0.5);  /* semi-transparent red */
+
+5. HSL (Hue, Saturation, Lightness)
+--------------------------
+color: hsl(0, 100%, 50%);   /* red */
+color: hsl(120, 100%, 50%); /* green */
+color: hsl(240, 100%, 50%); /* blue */
+
+
+  B What is a CSS Border?
+   A border is the outer line around an element (like a box).
+
+   selector {
+  border: 2px solid red;
+}
+  
+   Border Styles:
+   | Style    | Looks Like        |
+| -------- | ----------------- |
+| `solid`  | ――                |
+| `dotted` | ·····             |
+| `dashed` | — — —             |
+| `double` | ══                |
+| `groove` | 3D grooved border |
+| `ridge`  | 3D ridged border  |
+| `inset`  | Inside shadow     |
+| `outset` | Outside shadow    |
+| `none`   | No border         |
+
+
+Border Sides:
+Apply borders to specific sides:
+
+border-top: 2px dashed green;
+border-right: 1px solid blue;
+border-bottom: 3px dotted orange;
+border-left: 4px double black;
+
+
+
+What is Padding in CSS?
+Padding is the space between the content and the border of an element.
+PADDING: TOP ,RIGHT ,BOTTOM, LEFT;    ---> CLOCK WISE    WANT DIFFERNT VALUE OF EACH SIDE USE THAT WAY 
+PADDING; VALUE;  --> IF WANT ALL SIDE EQUAL 
+
+What is Margin in CSS?
+Margin is the space outside an element’s border.
+It pushes the element away from other elements.
+
+
+
+
+

@@ -1,0 +1,66 @@
+input[type="text"]{
+    color: red;
+    background-color: gray;
+    box-shadow: 3px 3px 3px 3px black;
+}
+input[type="mail"]{
+    color: red;
+    background-color: rgb(195, 179, 179);
+    box-shadow: 3px 3px 3px 3px black;
+}
+input[type="password"]{
+    color: blue;
+        background-color: rgb(243, 238, 238);
+    box-shadow: 3px  3px 3px black;
+}
+
+
+body{
+    border: 1px solid black ;
+    box-shadow: 3px 3px 3px 3px black;
+    width: 300px;
+     text-align: center;
+     
+}
+label[for="fname"]{
+    box-shadow:3px 3px 3px  black;
+    background-color: antiquewhite; 
+}
+label[for="email"]{
+    box-shadow:3px 3px 3px  black; 
+     background-color: antiquewhite; 
+}
+label[for="password"]{
+    box-shadow:3px 3px 3px  black; 
+     background-color: antiquewhite; 
+}
+form{
+    background-color: aqua;
+}
+ a[href="#"]{
+    background-color: aqua;
+ }
+ h1{
+    color: rgb(9, 71, 71);
+ }
+ .hi{
+    color: bisque;
+ }
+ #hi1{
+    color: blanchedalmond;
+ }
+ p{
+    border-color: aqua;
+    border-top-style: solid ;
+    border-left-style: double;
+    border-top-width: 10px;
+    border-left-color: red;
+    border-right-style: solid;
+    border-right-color: blue;
+    border-right-width: 10px;
+    border-bottom-style: dotted;
+    border-bottom-color: bisque;
+    border-bottom-width: 10px;
+    border-left-width: 10px;
+    border-radius: 10px;
+ }
