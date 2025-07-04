@@ -1,0 +1,104 @@
+                           DAY 3 of CSS
+
+CSS OUTLINE 
+
+WHAT IS CSS OUTLINE 
+The CSS outline is a line drawn around an element, outside its border, to make it stand out. It is often used to highlight elements when they are selected or focused. 
+Unlike borders, outlines do not take up space.
+
+Difference Between Border and Outline
+| **Border**                     | **Outline**                        |
+| ------------------------------ | ---------------------------------- |
+| Inside the element             | Outside the element                |
+| Takes space and affects layout | Does not take space                |
+| Can set different sides        | Same on all sides                  |
+| Can be rounded                 | Cannot be rounded                  |
+| Used for design                | Used for highlighting (like focus) |
+
+Text Vertical Alignment in CSS
+Vertical alignment in CSS means aligning text vertically within its container or relative to other elements.
+
+vertical-align:
+| Value      | Description                               |
+| ---------- | ----------------------------------------- |
+| `top`      | Aligns text to the top                    |
+| `middle`   | Aligns text to the middle                 |
+| `bottom`   | Aligns text to the bottom                 |
+| `baseline` | Aligns text to the baseline of the parent |
+| `sub`      | Aligns as subscript                       |
+| `super`    | Aligns as superscript                     |
+
+
+box-sizing: border-box:
+box-sizing: border-box means the total size of the element includes content, padding, and border.
+
+So if you set width: 200px, that includes the padding and border — it won’t grow bigger.
+
+
+Universal Selector ---> it use to handle default css 
+syntax
+*{
+     
+}
+
+Block Elements:
+ Definition:
+ Block elements take full width of the page (from left to right) and start on a new line.
+
+ Examples: <div>, <p>, <h1> to <h6>, <ul>, <li>, <section>
+
+ Behavior:
+
+Always starts on a new line
+Can set width, height, margin, padding
+
+2. Inline Elements:
+ Definition:
+Inline elements take only as much width as needed by the content and do not start on a new line.
+
+ Examples: <span>, <a>, <strong>, <em>, <img>
+
+ Behavior:
+
+Does not break into a new line
+Cannot set width or height
+
+3. Inline-Block Elements:
+ Definition:
+Inline-block elements behave like inline (stay in the same line), but you can set width and height like block.
+
+Examples: <button>, <input>, or any element styled as:
+display: inline-block;
+ Behavior:
+
+Sits in line with other elements
+You can set width, height, margin, and padding
+
+
+CSS inheritance
+Inheritance in CSS means some properties are automatically passed from parent to child elements.
+
+It helps avoid repeating the same styles.
+Example:
+
+<div style="color: red;">
+  <p>This is a paragraph.</p>
+</div>
+
+ The <p> inside <div> inherits the red color.
+You don’t need to write color: red; for <p> again.
+
+Common Inherited Properties:               
+color
+font-size
+font-family
+line-height
+visibility
+
+Not Inherited by Default:
+margin
+padding
+border
+width, height
+background
+

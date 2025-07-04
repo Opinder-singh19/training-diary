@@ -1,0 +1,50 @@
+a.link{
+    text-decoration: none;
+    color: red;
+
+}
+a:hover{
+    text-decoration: line-through;
+    color: skyblue;
+}
+a:active{
+    text-decoration: underline;
+    color: blue;
+}
+.c1{
+    text-transform:uppercase;
+    text-indent: 70px;  /*---> starting space */
+
+}
+a.btn:link,a.btn:visited{
+    background-color: white;
+    border: 2px solid black;
+    text-decoration: none;
+    padding: 5px 5px;
+    border-radius: 10px;
+    text-align: center;
+    color:wheat;
+}
+a.btn:hover,a.btn:active{
+    background-color: red;
+   
+}
+/* inline to block */
+p.p1{
+  background-color: red;
+  display: inline;  /* p tag also a block eleemnt*/
+}
+span{
+    background-color: blue; 
+    display: block; /*span tag is a inline elamnet make it black*/
+}
+div {
+    background-color: skyblue;
+}
+ul>li{
+    background-color:  black;
+    display:inline-block;
+    color:white;
+    
+    
+}
