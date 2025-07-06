@@ -1,0 +1,144 @@
+                        LAST DAY OF CSS 
+topics->
+1). CSS OVERFLOW 
+2). CSS POSITION 
+3). CSS FLOAT
+4). CSS PSEUDO CLASS use (:)
+5). CSS PSEUDO ELEMENTS use(: :)
+6). CSS ANIMATION
+7).CSS TRANSITION
+8). CSS FLEX
+9). CSS GRID
+
+
+1) CSS OVERFLOW
+What it does:
+Controls what happens when content overflows an element’s box.
+
+Values:
+
+visible – Default. Overflow is shown.
+hidden – Cuts off extra content.
+scroll – Adds scrollbars always.
+auto – Adds scrollbars only when needed.
+Example:
+
+div {
+  width: 100px;
+  height: 100px;
+  overflow: auto;
+}
+
+2) CSS POSITION
+What it does:
+Controls how an element is placed in the document.
+
+Types:
+
+static – Default, normal flow.
+relative – Moves relative to its normal position.
+absolute – Positioned relative to the nearest positioned ancestor.
+fixed – Fixed to the viewport.
+sticky – Scrolls until a threshold.
+Example:
+
+div {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+3) CSS FLOAT
+What it does:
+Makes elements "float" left or right, letting text wrap around.
+
+Values: left, right, none
+
+Example:
+
+img {
+  float: left;
+  margin-right: 10px;
+}
+
+4) CSS PSEUDO-CLASS (:)
+What it does:
+Styles elements in a special state.
+
+Examples:
+
+a:hover {
+  color: red; /* when mouse hovers */
+}
+
+li:first-child {
+  color: blue;
+}
+
+5) CSS PSEUDO-ELEMENT (::)
+What it does:
+Styles a part of an element.
+
+Examples:
+
+p::first-line {
+  font-weight: bold;
+}
+
+p::before {
+  content: "💡 ";
+}
+
+6) CSS ANIMATION
+What it does:
+Animates elements by changing styles over time.
+
+Example:
+
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+div {
+  animation: fade 2s ease-in-out;
+}
+
+7) CSS TRANSITION
+What it does:
+Smoothly animates property changes (on hover or interaction).
+
+Example:
+
+button {
+  background-color: blue;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: green;
+}
+
+8) CSS FLEXBOX
+What it does:
+A layout model for arranging items in a row/column.
+
+Example:
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+9) CSS GRID
+What it does:
+A powerful 2D layout system with rows and columns.
+
+Example:
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}

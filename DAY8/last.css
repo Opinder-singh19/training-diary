@@ -1,0 +1,139 @@
+.cl2{
+    background-color: black;
+    color: red;
+    height: 100px;
+    width: 300px;
+    overflow: auto;
+    overflow-x: auto;
+    border:2px solid black ;
+    box-shadow: 2px 2px 2px 2px black;
+    position:absolute ;
+    top: 5px;
+    left: 800px;
+
+}
+.img1{
+    height: 80px;
+    width: 300px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    float: right;
+
+}
+.cl1{
+    float: right;
+     background-color: rgb(102, 66, 18);
+    
+}
+.div2{
+    background-color: aqua;
+    display: inline;
+    display:none;
+
+}
+h1:hover .div2{
+    display:block;
+    display:inline-block;
+}
+h1::first-letter{
+    font-size: 105px;
+}
+h1::selection{
+    background-color: black;
+    color: red;
+}
+h2::before{
+    content: 'hello ' ;
+    color:red;
+    border:2px solid black
+}
+
+h2::after{
+    content: 'bye ' ;
+    color:red;
+    border:2px solid black
+}
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    animation-name: change-color;   /*. animation name */
+    animation-duration: 10s; /* animation kitni der ke liye hogi */
+    animation-delay: 2s;/* animation kitni der baad hogi*/
+    animation-iteration-count: 2; /* animation kitni baar hoga */
+    animation-fill-mode: forwards;  /* color ye he rahe */
+    
+}
+@keyframes change-color {
+    from{
+        background-color: black;
+
+    }
+    to{
+        background-color: red;
+
+    }
+    
+}
+
+.box2{
+    margin: 10px;
+    height: 5px;
+    width: 20px;
+    background-color: black;
+    animation-name: line;
+    animation-duration: 10s;
+    animation-direction: reverse;  /*animation direction*/
+
+}
+@keyframes line {
+    from{
+       width: 0px;
+    }
+    to{
+       width: 100px;
+    }
+    
+}
+
+.box3{
+    height: 20px;
+    width: 20px;
+    background-color: skyblue;
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    position: relative;
+    animation-timing-function: ease-in;
+}
+@keyframes animation {
+    0%{
+        top:0px;
+        left:0px;
+    }
+    45%{
+        top:0px;
+        left:100px;
+        background-color: beige;
+    }
+    70%{
+        top:100px;
+        left:100px;
+        background-color: red;
+    }
+    85%{
+        top:100px;
+        left:0px;
+         background-color: orange;
+    }
+    100%{
+        top:0px;
+        left:0px;
+       
+    }
+    
+}

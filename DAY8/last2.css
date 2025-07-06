@@ -1,0 +1,71 @@
+/*.container div {
+    background-color: black;
+    text-align: center;
+    color: red;
+    border: 1px solid silver;
+    width: 150px;
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    
+}
+h1{
+    margin-top: 2px;
+}
+.container{
+    display: flex;
+    height: 300px;
+    align-items: center;
+    background-color: aquamarine;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.item1{
+    flex: 1;
+}
+.item2{
+    flex: 1;
+
+}
+.item3{
+    flex: 1;
+
+}*/
+
+
+/* grid */
+
+.container{
+    max-width:1000px;
+    background-color: aqua;
+    border: 2px solid black ;
+    /*display: flex;*/ /* not using flex we use here grid*/
+    display: grid;
+    /*grid-template-columns: 100px 100px 100px;*/                /* both work are same */
+    grid-template-columns: repeat(auto-fill ,200px);             /* auto-fill and auto-fit*/
+    /*grid-template-columns: repeat(3 ,1fr);*/           
+    grid-template-rows: repeat(4,1fr);
+    gap:10px 10px;
+    grid-auto-flow: dense;
+}
+.item{
+    border: 2px solid black ;
+    margin-top: 2px;
+    padding: 10px;
+    
+}
+.item1{
+     grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item6{
+    grid-row: span 3;
+
+}
+.item8{
+    grid-row: span 4;
+}
