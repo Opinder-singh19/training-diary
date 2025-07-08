@@ -1,0 +1,81 @@
+                                  DAY -1 OF JS (JAVA SCRIPT)
+
+What is JavaScript?
+JavaScript is a programming language used to make webpages interactive.
+JavaScript is a programming language that helps websites respond to actions, move things, and interact with users.
+
+| Language   | What it does             |
+| ---------- | ------------------------ |
+| HTML       | Makes the content        |
+| CSS        | Makes it look good       |
+| JavaScript | Makes it work & interact |
+
+Advantages of JavaScript
+Fast 🚀
+→ Runs directly in the browser — no need to wait!
+Easy to Learn 📚
+→ Looks like English, perfect for beginners.
+Makes Webpages Interactive 🕹️
+→ Pop-ups, sliders, buttons, forms — all possible!
+Works Everywhere 🌍
+→ Runs on all modern browsers (Chrome, Firefox, Safari, etc.)
+No Extra Software Needed 🧑‍💻
+→ Just open your browser and write JavaScript.
+Used for Frontend and Backend ⚙️
+→ Can build both website designs and server logic (using Node.js).
+
+Disadvantages of JavaScript
+Browser Dependent 🌐
+→ Sometimes behaves differently in different browsers.
+Security Issues 🔒
+→ Can be used to write harmful code if not handled properly.
+Can Be Slow for Big Apps 🐢
+→ Not as fast as some other languages for complex programs.
+No File Access (Directly) 📁
+→ Can’t directly read/write files on your computer (for safety).
+Easily Misused 🤯
+→ Beginners might write messy or buggy code.
+
+
+Applications of JavaScript
+JavaScript is used to make websites alive and interactive. But that’s not all — it’s used in many areas!
+
+1. Web Development
+Add buttons, sliders, popups, animations, etc.
+Example: Click a button to open a form ✅
+
+2. E-commerce Websites
+Add to cart, price calculators, discount updates
+Example: Amazon cart updates without reloading
+
+4. Mobile App Development
+Used with frameworks like React Native
+Build apps for Android and iOS using JS
+
+
+
+COMMENtS 
+there are two types of comments in JavaScript
+1) single line comments (using ->//)
+2) multiple line comments (using ->/*    */)
+
+IDENTIFIERS IN JS 
+identifiers in js  is same as other language like c,c++
+there are some rules for identifiers 
+--> Must start with a letter (A-Z, a-z) or underscore (_)
+-->Can contain letters, digits (0-9), and underscores
+--> No special characters allowed (like @, $, #, !)
+--> Cannot be a keyword
+
+
+What is a Variable?
+A variable is like a container or a box that stores some information which can change.
+
+What are Keywords in JavaScript?
+Keywords are special reserved words in JavaScript that have special meaning.
+You cannot use them as variable names, because JavaScript already uses them for its own purpose.
+
+Keyword	   Meaning
+let	     Declare a block-scoped variable
+const	 Declare a constant (unchangeable) variable
+var	     Declare a variable (old method)
