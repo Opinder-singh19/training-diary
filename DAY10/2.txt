@@ -1,0 +1,132 @@
+DAY 2 OF JAVASCRIPT
+
+
+OPERATORS IN JAVASCRIPT
+there are six types of operators 
+1). arithmatic operators 
+2).logical operators 
+3). commparison operators
+4). assignment operators
+5). string operators
+6). ternary operators 
+
+1. Arithmetic Operators (Math stuff)
+| Operator | Meaning             | Example                 |
+| -------- | ------------------- | ----------------------- |
+| `+`      | Addition            | `5 + 3 = 8`             |
+| `-`      | Subtraction         | `5 - 3 = 2`             |
+| `*`      | Multiplication      | `5 * 3 = 15`            |
+| `/`      | Division            | `6 / 2 = 3`             |
+| `%`      | Modulus (remainder) | `5 % 2 = 1`             |
+| `**`     | Exponentiation      | `2 ** 3 = 8`            |
+| `++`     | Increment           | `x++` means `x = x + 1` |
+| `--`     | Decrement           | `x--` means `x = x - 1` |
+
+2. Assignment Operators
+| Operator | Meaning             | Example                |
+| -------- | ------------------- | ---------------------- |
+| `=`      | Assign value        | `x = 5`                |
+| `+=`     | Add and assign      | `x += 2` → `x = x + 2` |
+| `-=`     | Subtract and assign | `x -= 2`               |
+| `*=`     | Multiply and assign | `x *= 2`               |
+| `/=`     | Divide and assign   | `x /= 2`               |
+| `%=`     | Modulus and assign  | `x %= 2`               |
+
+3. Comparison Operators (Used in conditions)
+| Operator | Meaning                    | Example               |
+| -------- | -------------------------- | --------------------- |
+| `==`     | Equal to (value only)      | `5 == "5"` → `true`   |
+| `===`    | Equal to (value and type)  | `5 === "5"` → `false` |
+| `!=`     | Not equal (value only)     | `5 != "5"` → `false`  |
+| `!==`    | Not equal (value and type) | `5 !== "5"` → `true`  |
+| `>`      | Greater than               | `5 > 3`               |
+| `<`      | Less than                  | `5 < 3`               |
+| `>=`     | Greater than or equal to   | `5 >= 5`              |
+| `<=`     | Less than or equal to      | `3 <= 5`              |
+
+4. Logical Operators
+| Operator | Meaning | Example                   |    |        |   |                |
+| -------- | ------- | ------------------------- | -- | ------ | - | -------------- |
+| `&&`     | AND     | `true && false` → `false` |    |        |   |                |
+| \`       |         | \`                        | OR | \`true |   | false`→`true\` |
+| `!`      | NOT     | `!true` → `false`         |    |        |   |                |
+
+5. String Operator
++ → Also used to concatenate (join) strings
+"Hello" + " Opinder"  // "Hello Opinder"
+
+6.Ternary Operator (Shortcut for if-else)
+
+ condition ? trueResult : falseResult;
+
+let result = (age >= 18) ? "Adult" : "Minor";
+
+
+Bitwise AND Truth Table
+| A | B | A & B |
+| - | - | ----- |
+| 0 | 0 | 0     |
+| 0 | 1 | 0     |
+| 1 | 0 | 0     |
+| 1 | 1 | 1     |
+
+
+
+ Bitwise OR Truth Table
+ | A | B | A \| B |
+| - | - | ------ |
+| 0 | 0 | 0      |
+| 0 | 1 | 1      |
+| 1 | 0 | 1      |
+| 1 | 1 | 1      |
+
+Bitwise XOR Truth Table
+| A | B | A ^ B |
+| - | - | ----- |
+| 0 | 0 | 0     |
+| 0 | 1 | 1     |
+| 1 | 0 | 1     |
+| 1 | 1 | 0     |
+
+What is Bitwise NOT (~)?
+It flips each bit of the number:
+
+0 becomes 1
+1 becomes 0
+ 
+ | A | \~A |
+| - | --- |
+| 0 | 1   |
+| 1 | 0   |
+
+
+What is an if statement?
+It’s a decision maker.
+It checks if a condition is true — and if it is, it runs the code inside the { }.
+
+Syntax:
+if (condition) {
+  // code runs if condition is true
+}
+
+What is if...else?
+if checks a condition
+else runs if the condition is false
+
+Syntax:
+if (condition) {
+  // runs if condition is true
+} else {
+  // runs if condition is false
+}
+
+In JavaScript, if...else if...else is used to check multiple conditions. 
+
+Here's the basic syntax:
+if (condition1) {
+  // code runs if condition1 is true
+} else if (condition2) {
+  // code runs if condition2 is true
+} else {
+  // code runs if none of the above are true
+}
