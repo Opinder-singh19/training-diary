@@ -1,0 +1,11 @@
+  JavaScript
+
+  Events in JavaScript
+  javascript interaction with html is hamdled through event that occur when the user or the 
+  browser manipulates a page when the page loads it is called an event when the user clicks a button that click too is an event 
+  ->click                   -> Key press 
+  ->Double click            -> Key up
+  -->right click            ->load           ----|
+  ->Mouse Hover             ->unload             |.   these are window events 
+  ->MOuse out               ->resize             |
+  ->Mouse up               ->scroll         -----|    

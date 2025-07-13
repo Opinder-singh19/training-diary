@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function hello(){
+            document.write("welcome")
+        }
+
+        function act(){
+            alert("ok sir");
+        }
+        function nd(){
+            confirm("ok are you sure");
+        }
+        function dk(){
+            prompt("please here ");
+        }
+    </script>
+
+</head>
+<body>
+    <button onclick="hello()">click me </button> <br> <!-- for single click ---)  we use onclick -->
+     <button ondblclick="act()">click me </button> <br>  <!--  for double click --) we use onblclick -->
+        <button  oncontextmenu="nd()"> click me</button> <br><!-- on right click --) we use oncontext -->
+        <button  onmouseenter="dk()"> click me</button> <br> <!-- on Mouse hover--) onmouseenter-->
+</body>
+</html>
