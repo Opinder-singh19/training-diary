@@ -9,3 +9,78 @@
   ->Mouse Hover             ->unload             |.   these are window events 
   ->MOuse out               ->resize             |
   ->Mouse up               ->scroll         -----|    
+
+  Mouse Events in JavaScript 
+Mouse events are actions that happen when the user interacts with a mouse on a web page — like clicking, hovering, moving, etc.
+
+| Event Name   | What It Means (Easy)                                   |
+| ------------ | ------------------------------------------------------ |
+| `click`      | When you click (press and release) the mouse           |
+| `dblclick`   | When you double-click the mouse                        |
+| `mousedown`  | When you press down the mouse button                   |
+| `mouseup`    | When you release the mouse button                      |
+| `mousemove`  | When you move the mouse over an element                |
+| `mouseenter` | When the mouse enters (comes over) an element          |
+| `mouseleave` | When the mouse leaves the element                      |
+| `mouseover`  | Like `mouseenter` but also triggers for child elements |
+| `mouseout`   | Like `mouseleave` but also triggers for child elements |
+
+Key Events in JavaScript 
+Key events happen when you press or release a key on your keyboard.
+JavaScript can detect and respond to those actions — like when you type something.
+
+| Event Name | What It Means (Easy)                                                     |
+| ---------- | ------------------------------------------------------------------------ |
+| `keydown`  | When you **press down** a key                                            |
+| `keypress` | When you **press** a key that gives a character (older, now rarely used) |
+| `keyup`    | When you **release** the key                                             |
+
+window + Key Events in JavaScript
+You can attach keyboard events to the whole window object, so it listens to key presses anywhere on the page, not just in a specific input box.
+
+| Event          | What It Means (Easy)                   |
+| -------------- | -------------------------------------- |
+| `load`         | Page fully loaded (images, styles too) |
+| `resize`       | When the browser window size changes   |
+| `scroll`       | When you scroll the page               |
+| `beforeunload` | When you’re about to leave the page    |
+| `keydown`      | When any key is pressed                |
+
+--->NOTE-->without eventlistener we use on before an event like onmouseover but when we use event listner we do not 
+use on befor event only type mouseover
+
+
+What is addEventListener?
+It’s a way to tell JavaScript to do something when an event happens.
+
+Like:
+
+when you click a button
+when you press a key
+when the page loads
+
+Simple Format:
+element.addEventListener("eventName", functionToRun);
+
+Why use addEventListener?
+You can add multiple events to same element
+Keeps JavaScript and HTML clean and separate
+More flexible than using onclick or onkeydown directly
+
+
+this in addEventListener :
+In addEventListener, this means the element that triggered the event.
+
+
+Example:
+button.addEventListener("click", function() {
+  this.style.color = "red";
+});
+
+Scroll Event 
+The scroll event happens when you scroll up or down on a page or inside a scrollable element.
+
+Use Cases:
+Show "Back to Top" button
+Make sticky headers
+Load more data when user scrolls to bottom (like Instagram)

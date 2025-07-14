@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div#text{
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <div id="text">
+        <h1>scroll event </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aut quod ipsum sint eligendi velit nesciunt, cupiditate, aspernatur dolorum soluta saepe explicabo deleniti animi deserunt expedita, numquam incidunt nemo ipsam.</p> <br>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aut quod ipsum sint eligendi velit nesciunt, cupiditate, aspernatur dolorum soluta saepe explicabo deleniti animi deserunt expedita, numquam incidunt nemo ipsam.</p> <br>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aut quod ipsum sint eligendi velit nesciunt, cupiditate, aspernatur dolorum soluta saepe explicabo deleniti animi deserunt expedita, numquam incidunt nemo ipsam.</p> <br>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aut quod ipsum sint eligendi velit nesciunt, cupiditate, aspernatur dolorum soluta saepe explicabo deleniti animi deserunt expedita, numquam incidunt nemo ipsam.</p> <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aut quod ipsum sint eligendi velit nesciunt, cupiditate, aspernatur dolorum soluta saepe explicabo deleniti animi deserunt expedita, numquam incidunt nemo ipsam.</p> <br>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aut quod ipsum sint eligendi velit nesciunt, cupiditate, aspernatur dolorum soluta saepe explicabo deleniti animi deserunt expedita, numquam incidunt nemo ipsam.</p> <br>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aut quod ipsum sint eligendi velit nesciunt, cupiditate, aspernatur dolorum soluta saepe explicabo deleniti animi deserunt expedita, numquam incidunt nemo ipsam.</p> <br>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aut quod ipsum sint eligendi velit nesciunt, cupiditate, aspernatur dolorum soluta saepe explicabo deleniti animi deserunt expedita, numquam incidunt nemo ipsam.</p> <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aut quod ipsum sint eligendi velit nesciunt, cupiditate, aspernatur dolorum soluta saepe explicabo deleniti animi deserunt expedita, numquam incidunt nemo ipsam.</p> <br>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aut quod ipsum sint eligendi velit nesciunt, cupiditate, aspernatur dolorum soluta saepe explicabo deleniti animi deserunt expedita, numquam incidunt nemo ipsam.</p> <br>
+    </div>
+    <script>
+
+        // in these scrolling count both up and down scroll in single as you see in inspect 
+       /* window.addEventListener('scroll',function(){
+            console.log('scrolling......');
+        })*/
+
+        //if we want up and down scrolling count differnt there is a code 
+        /*window.addEventListener('wheel',function( event){
+            if(event.deltaY<0){
+                console.log("scrolling up");
+            }
+            else if(event.deltaY>0){
+                console.log("scrolling down");
+            }
+        })*/
+
+        //determine after or before a perticular px 
+        window.addEventListener('scroll',function(){
+            if(window.pageYOffset>500){
+                console.log("above 500px");
+                document.body.style.background='grey';
+            }
+            else {
+                console.log("below 500px");
+                document.body.style.background='white';
+            }
+        })
+
+
+
+    </script>
+</body>
+</html>
