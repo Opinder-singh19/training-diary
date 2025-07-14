@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>loops</h3>
+    <script src="5.js" >
+       /* for(let i=0 ;i<10;i++){
+            document.write(i+'<br>');
+        }*/
+
+        /*let i=1;
+        while(i<5){
+            document.write(i+'<br>');
+            i++;
+        }*/
+
+        //do while
+       /* let i=10;
+        do{
+            document.write(i+'<br>');
+            i++;
+        }while(i<=5);*/
+
+        //use of break statement 
+        document.write('break staement <br>')
+        for (let i=0;i<10;i++){
+            if(i==5){
+                break;
+            }
+            document.write(i+'<br>');
+        }
+        document.write("continue statement <br>")
+
+//.     continue statement 
+        for (let i=0;i<10;i++){
+            if(i==5){
+                continue;
+            }
+            document.write(i+'<br>');
+        }
+
+        //array 
+        let subject=['HTML','CSS'];
+        //update like index 1 pr css ki jkga react show ho 
+        subject[1]='react';
+        document.write(subject[1]);
+
+        //in array value associated with a index 
+        //index[0]-->HTML. index[1]--> CSS
+
+
+
+
+
+    </script>
+</body>
+</html>

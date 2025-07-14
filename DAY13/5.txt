@@ -1,0 +1,150 @@
+  javascript
+
+What is a Loop?
+A loop is used to repeat a block of code again and again until a condition is false.
+
+  
+  1).  For loop :- A for loop repeats a block of code a fixed number of times.
+
+  Syntax:-
+  for (initialization; condition; update) {
+  // code to repeat
+}
+
+2). while loop 
+A while loop keeps running as long as the condition is true.
+
+ Syntax:-
+ let i=1;
+        while(i<5){
+            document.write(i+'<br>');
+            i++;
+        }
+
+
+
+3).  What is a do...while loop?
+A do...while loop executes the block of code at least once, and then checks the condition.
+
+let i=10;
+        do{
+            document.write(i+'<br>');
+            i++;
+        }while(i<=5);
+
+
+What is break?
+The break statement is used to stop a loop immediately, even if the condition is still true.
+
+What is continue?
+The continue statement skips the current iteration of the loop and jumps to the next one, without stopping the whole loop.
+
+
+What is an Array in JavaScript?
+An array is a special variable in JavaScript that can store multiple values in a single variable.
+
+Key Points:
+Arrays can store any type: numbers, strings, booleans, objects, even other arrays!
+They are written using square brackets [ ].
+Values are separated by commas ,.
+
+
+What is a Method in JavaScript?
+A method is just a function that is attached to an object.
+
+In Simple Words:
+Method = Function inside an object
+
+let person = {
+  name: "Opinder",
+  greet: function () {
+    console.log("Hello, I'm " + this.name);
+  }
+};
+
+person.greet(); // Output: Hello, I'm Opinder
+
+Here:
+
+greet is a method of the person object.
+It behaves like a normal function but is called using the object.
+
+Array Method
+
+. push() – Add at the end
+Adds something to the end of the array.
+
+pop() – Remove from end
+Removes the last item.
+
+ unshift() – Add at start
+Adds item at the beginning.
+
+ shift() – Remove from start
+Removes the first item.
+
+ includes() – Check if item exists
+Checks if an item is there or not.
+
+indexOf() – Find position
+Tells where the item is.
+
+oin() – Convert array to string
+Joins everything with comma (or your own symbol).
+
+slice() – Copy part of array
+Cuts a piece of array (original not changed).
+
+splice() – Cut/Insert items
+Can remove or add items (original array changes).
+
+
+-->Object in JavaScript:
+An object is a collection of key-value pairs where:
+Keys are called properties
+Values can be data or functions (methods)
+
+let car = {
+  brand: "Toyota",     // property
+  color: "red",        // property
+  start: function() {  // method
+    console.log("Car started");
+  }
+};
+
+
+MATH METHODS (Built-in Math object)
+
+Math methods are used to do calculations.
+
+| Method          | Meaning           | Example             | Result   |
+| --------------- | ----------------- | ------------------- | -------- |
+| `Math.round()`  | Rounds to nearest | `Math.round(4.6)`   | 5        |
+| `Math.floor()`  | Rounds **down**   | `Math.floor(4.9)`   | 4        |
+| `Math.ceil()`   | Rounds **up**     | `Math.ceil(4.1)`    | 5        |
+| `Math.max()`    | Largest number    | `Math.max(2, 7, 5)` | 7        |
+| `Math.min()`    | Smallest number   | `Math.min(2, 7, 5)` | 2        |
+| `Math.random()` | Random 0 to 1     | `Math.random()`     | 0.123... |
+| `Math.pow()`    | Power (xⁿ)        | `Math.pow(2, 3)`    | 8        |
+| `Math.sqrt()`   | Square root       | `Math.sqrt(9)`      | 3        |
+| `Math.abs()`    | Absolute (no -ve) | `Math.abs(-7)`      | 7        |
+
+
+DATE METHODS (Using new Date())
+
+Used to work with dates and times.
+
+| Method           | Meaning           | Example              | Output (Example)       |
+| ---------------- | ----------------- | -------------------- | ---------------------- |
+| `getFullYear()`  | Get year          | `now.getFullYear()`  | 2025                   |
+| `getMonth()`     | Get month (0–11)  | `now.getMonth()`     | 6 (July)               |
+| `getDate()`      | Get day of month  | `now.getDate()`      | 14                     |
+| `getDay()`       | Day of week (0–6) | `now.getDay()`       | 1 (Mon)                |
+| `getHours()`     | Get hours         | `now.getHours()`     | 20                     |
+| `getMinutes()`   | Get minutes       | `now.getMinutes()`   | 32                     |
+| `getSeconds()`   | Get seconds       | `now.getSeconds()`   | 10                     |
+| `toDateString()` | Date in string    | `now.toDateString()` | "Mon Jul 14 2025"      |
+| `toTimeString()` | Time in string    | `now.toTimeString()` | "20:32:10 GMT+0530..." |
+
+
+
