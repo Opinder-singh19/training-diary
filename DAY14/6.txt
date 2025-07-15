@@ -1,0 +1,99 @@
+DOCUMENT OBJECT MODEL (DOM)----> JavaScript Topic
+
+The Document Object Model (DOM) is a programming interface for web documents. 
+It represents the page structure as a tree of objects, allowing JavaScript to access, modify, and update the content, structure, and style of a webpage dynamically.
+In short:
+DOM lets JavaScript interact with HTML and CSS to make web pages dynamic and interactive.
+
+document.getElementById()
+It is a JavaScript method used to select an HTML element by its id.
+Syntax:
+
+document.getElementById("your-id")
+
+Key Points:
+Always unique — id should be one per element.
+Returns a single element.
+Useful for accessing and modifying specific parts of a page.
+
+document.getElementsByClassName()
+It is a JavaScript method used to select all HTML elements with a specific class name.
+ Syntax:
+ document.getElementsByClassName("your-class-name")
+
+ Key Points:
+Returns an HTMLCollection (like an array of elements).
+You can use index to access specific elements.
+You can loop through all elements with that class.
+
+let elements = document.getElementsByClassName("msg");
+elements[0].style.color = "green"; // changes first <p> text color
+
+
+document.getElementsByTagName()
+It is a JavaScript method used to select all HTML elements with a specific tag name (like p, div, h1, etc).
+
+Syntax:
+document.getElementsByTagName("tag-name")
+Key Points:
+
+Returns an HTMLCollection of all matching tags.
+You can access elements using index or loop through them.
+Common tags: p, div, img, li, button, etc.
+
+document.querySelector()
+It selects the first element that matches a CSS selector (like a class, id, tag, etc.).
+Syntax:
+document.querySelector("selector")
+
+ document.querySelectorAll()
+It selects all elements that match a CSS selector, and returns a NodeList (like an array).
+ Syntax
+
+ document.querySelectorAll("selector")
+
+| Feature     | `querySelector`        | `querySelectorAll`    |
+| ----------- | ---------------------- | --------------------- |
+| Selects     | First matching element | All matching elements |
+| Return Type | Single element (Node)  | NodeList (array-like) |
+| Use case    | One element            | Multiple elements     |
+
+
+o how do you choose?
+Use this simple rule:
+
+🔹 Use getElementById() — if you know the element has a unique id.
+
+🔹 Use querySelector() — when:
+
+You need to select something using complex selectors like:
+.class
+#id
+div > p
+You only want the first match
+🔹 Use querySelectorAll() — when you want to apply something to multiple elements using a selector.
+
+What is createElement()?
+createElement() is a method in JavaScript used to create a new HTML element using code — before adding it to your webpage.
+
+Syntax:
+document.createElement("tagName");
+
+What is appendChild() in JavaScript?
+appendChild() is used to add an element inside another element — usually a newly created element.
+
+Syntax:
+parentElement.appendChild(childElement);
+Things to Remember:
+appendChild() can only add one node at a time.
+It adds the child as the last child (at the bottom).
+If you use it on an element that’s already on the page, it moves it.
+
+What is insertBefore() in JavaScript?
+It’s used to insert a new element before an existing one inside a parent.
+
+Syntax
+parent.insertBefore(newElement, existingElement);
+
+
+
