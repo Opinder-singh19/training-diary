@@ -1,0 +1,74 @@
+React js
+
+History
+
+React was created by Jordan walke a software engg at facebook 
+It was first deployed for facebook feed around 2011
+In May 2013 ,React was Open sourced at js conference
+
+what is React
+
+React is a JavaScript library created for Fast and interactive user interface for web and mobile applications
+React is a front-end JavaScript library in the field of web development 
+Popular websites Like Netflix,Airbnb,Yahoo!mail and many more use react to built there UI
+ OR
+React is a tool used to build websites.
+It helps you create parts of a website (like buttons, menus, forms) in a smart, reusable way using JavaScript.
+
+
+Why React ?
+Easy creation of dynamic application
+.Reusable components
+small learning cureve
+unidirectional data flow 
+It can used for both mobile and web
+dedicating tools for easy debugging
+
+feature of javascript 
+JSX javascript syntax extension -JSX is  a syntax extension to javascript .
+it is used with react to describe what the user interface should look like 
+
+JSX lets you write HTML-like code in JavaScript — so you can design your UI and write logic in the same place.
+ Example:-
+const element = <h1>Hello, Opinder!</h1>;
+
+Virtual DOM – Easy Definition:
+Virtual DOM is a lightweight copy of the real DOM used by React to make updates faster and smarter.
+
+Performance means how fast and smooth your website or app works — like how quickly it loads, updates, or responds to clicks
+
+
+Debugging – 
+Debugging means finding and fixing errors (bugs) in your code so it works correctly.
+
+ Example:
+If your button doesn't work, debugging is like:
+
+Checking the code 
+Finding the typo or logic mistake 
+Fixing it 
+Testing again 
+
+Node.js – Easy Definition:
+Node.js is a JavaScript runtime that lets you run JavaScript outside the browser — like on your computer or server.
+
+Simple Words:
+JavaScript usually runs in browsers (like Chrome).
+Node.js lets JavaScript run on your machine like Python or C programs.
+
+
+What is package.json?
+It’s a special file in every Node.js/React project that:
+
+Stores project info (name, version, description).
+Lists dependencies (what packages your project needs to work).
+Defines scripts (shortcuts to run commands like npm start or npm run build).
+
+| Feature                | `package.json`                                           | `package-lock.json`                                      |
+| ---------------------- | -------------------------------------------------------- | -------------------------------------------------------- |
+| 📜 **Purpose**         | Tells **what** packages your project needs               | Locks **exact versions** of those packages               |
+| ✍️ **Who creates it?** | You or tools like `npm init`                             | Automatically created by `npm install`                   |
+| 🔢 **Version control** | Uses version ranges (`^`, `~`, etc.)                     | Uses exact versions (`1.2.3`)                            |
+| 🧠 **Editable?**       | Yes, you edit this file directly                         | No, you usually don’t touch it                           |
+| 🧱 **Level**           | Top-level dependencies only                              | Includes nested (child) dependencies too                 |
+| 🎯 **Use case**        | For humans to understand and manage project dependencies | For npm to reproduce the **same environment** every time |
