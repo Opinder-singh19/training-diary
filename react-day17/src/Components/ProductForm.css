@@ -1,0 +1,37 @@
+.new-product__control {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.new-product__control label {
+  font-weight: bold;
+  color: #444;
+}
+
+.new-product__control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.new-product__button {
+  text-align: right;
+}
+
+.new-product__button button {
+  font: inherit;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.new-product__button button:hover {
+  background-color: #45a049;
+}
